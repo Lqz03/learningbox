@@ -1,0 +1,10 @@
+{
+    "bgpath": "",
+    "donecolor": 3,
+    "interval": 20,
+    "reverse": false,
+    "sort": "time",
+    "taskcolor": 8,
+    "theme": "light",
+    "transparent": true
+}

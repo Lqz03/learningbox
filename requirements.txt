@@ -1,0 +1,2 @@
+# 应用依赖
+tkintertools>=2.5.9
