@@ -99,8 +99,7 @@ class ReminderManager:
             message = f"🔔 任务提醒\n\n任务: {task_name}\n开始时间: {task_time_str}\n\n请准备开始任务！"
             
             # 显示消息框
-            messagebox.showinfo("任务提醒", message)
-            
+            messagebox.showinfo("任务提醒", message)            
             root.destroy()
         except Exception as e:
             print(f"触发提醒错误: {e}")
