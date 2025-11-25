@@ -15,7 +15,6 @@ from daily_recorder import DailyRecorder
 from pomodoro import PomodoroWindow
 from reminder import ReminderManager, ReminderWindow, reminder_manager
 
-
 class TestTaskManager(unittest.TestCase):
     """任务管理器测试类"""
     
