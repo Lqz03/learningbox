@@ -41,8 +41,7 @@ class PomodoroWindow:
                 bg=theme['ReadWindow']['bg'], 
                 highlightbackground=theme['ReadWindow']['highlightbackground'])
             cls.canvas.configure(highlightthickness=1)
-            cls.canvas.place(x=0, y=0)
-            
+            cls.canvas.place(x=0, y=0)            
             # 标题
             cls.canvas.create_text(
                 175, 30, text='—— 番茄时钟 ——', font=('楷体', 16), fill=theme['MainColor'][3])
