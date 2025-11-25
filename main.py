@@ -28,9 +28,7 @@ def configure(modify: bool = False, **kw):
             for widget in ('Label', 'Button', 'Entry', 'Text'):
                 theme['Canvas' + widget]['color_fill'] = tkintertools.COLOR_NONE
 
-
 configure()
-
 
 class MainWindow:
     """ 主界面 """
